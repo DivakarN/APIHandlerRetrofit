@@ -58,7 +58,7 @@ A static or companion object is implemented to invoke without object instantiati
     }
 
 **(2) NetworkInterceptor** - NetworkInterceptor is a barrier which allows the api to retrive/fetch data only if internet connection
-                             is there in android mobile phones
+                             is there in android devices.
 
 
     class NetworkConnectionInterceptor(context: Context) : Interceptor {

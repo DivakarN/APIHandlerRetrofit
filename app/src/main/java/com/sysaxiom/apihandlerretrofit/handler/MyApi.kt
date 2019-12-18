@@ -18,9 +18,7 @@ interface MyApi {
     fun sampleGetCall() : Call<ResponseBody>
 
     companion object{
-
         operator fun invoke(networkConnectionInterceptor: NetworkConnectionInterceptor) : MyApi{
-
             val okkHttpclient = OkHttpClient.Builder()
                 .addInterceptor(networkConnectionInterceptor)
                 .build()

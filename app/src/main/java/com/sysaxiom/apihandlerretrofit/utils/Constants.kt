@@ -8,7 +8,7 @@ class LogConstants{
 
 class ApiConstants{
     companion object{
-        const val baseUrl = "http://172.16.4.26:3090/"
+        const val baseUrl = "http://focozon.com:3090/"
         const val getApi = "getInterest"
         const val postApi = "checkMobile"
         const val postApiJsonName = "mobile"
